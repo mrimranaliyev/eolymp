@@ -10,8 +10,7 @@ public class Main {
             if (c[i] == ' ') {
                 c[i + 1] = Character.toUpperCase(c[i + 1]);
             }
-            System.out.println(c);
-
         }
+        System.out.println(c);
     }
 }
