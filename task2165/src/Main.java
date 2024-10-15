@@ -7,8 +7,5 @@ public class Main {
         s = s.trim().replaceAll("\\s+"," ");
         System.out.println(s);
 
-
-
-
     }
 }
