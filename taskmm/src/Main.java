@@ -10,7 +10,6 @@ public class Main {
         for (int i = s.length() - 1; i >= 0;i--){
             r+=(s.charAt(i) - 48) * a;
             a = a * 10;
-
         }
         System.out.println(r + 1);
     }
