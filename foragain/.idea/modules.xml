@@ -3,7 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/again/again.iml" filepath="$PROJECT_DIR$/again/again.iml" />
+      <module fileurl="file://$PROJECT_DIR$/char/char.iml" filepath="$PROJECT_DIR$/char/char.iml" />
+      <module fileurl="file://$PROJECT_DIR$/charr/charr.iml" filepath="$PROJECT_DIR$/charr/charr.iml" />
       <module fileurl="file://$PROJECT_DIR$/foragain.iml" filepath="$PROJECT_DIR$/foragain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newlesson/newlesson.iml" filepath="$PROJECT_DIR$/newlesson/newlesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switch/switch.iml" filepath="$PROJECT_DIR$/switch/switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switch2/switch2.iml" filepath="$PROJECT_DIR$/switch2/switch2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task2/task2.iml" filepath="$PROJECT_DIR$/task2/task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taskif/taskif.iml" filepath="$PROJECT_DIR$/taskif/taskif.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3/test3.iml" filepath="$PROJECT_DIR$/test3/test3.iml" />
     </modules>
   </component>
 </project>
