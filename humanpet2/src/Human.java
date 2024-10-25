@@ -1,12 +1,10 @@
 public class Human {
-    public String name;
-    public String surname;
-    public int age;
-    public int iq;
-    public Pet pet;
-    public Human mother;
-    public Human father;
-    public String[][] schedule;
+    private String name;
+    private String surname;
+    private int age;
+    private int iq;
+    private String[][] schedule;
+    private Family family;
 
     public Human(String name, String surname, int age) {
         this.name = name;
@@ -15,18 +13,11 @@ public class Human {
     }
 
 
-    public Human(String name, String surname, int year, Human mother, Human father) {
-        this(name, surname, year);
-        this.mother = mother;
-        this.father = father;
-    }
-
-
     public Human(String name, String surname, int year, int iq, Pet pet, Human mother, Human father, String[][] schedule) {
         this(name, surname, year, mother, father);
         this.iq = iq;
         this.pet = pet;
-        this.schedule = schedule;
+        this.schedule =new string [2][0];
     }
 
     public Human() {

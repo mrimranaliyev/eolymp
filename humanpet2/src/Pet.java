@@ -1,9 +1,9 @@
 public class Pet {
-    public String species;
-    public String nickname;
-    public int age;
-    public int trickLevel;
-    public String[] habits;
+    private String species;
+    private String nickname;
+    private int age;
+    private int trickLevel;
+    private String[] habits;
 
     public Pet(String species, String nickname) {
         this.species = species;
