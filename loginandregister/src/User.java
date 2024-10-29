@@ -6,7 +6,8 @@ public class User {
         this.username = username;
         this.password = password;;
     }
-    public User () {}
+    public User () {
+    }
 
     public String getUsername() {
         return username;

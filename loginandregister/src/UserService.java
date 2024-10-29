@@ -1,20 +1,15 @@
 public class UserService {
-    public String register;
-    public String login;
 
-    public String getLogin() {
-        return login;
-    }
 
-    public void setLogin(String login) {
-        this.login = login;
-    }
+    public void register(User user){
 
-    public String getRegister() {
-        return register;
-    }
+        UserValidation userValidation = new UserValidation();
 
-    public void setRegister(String register) {
-        this.register = register;
+        if(!userValidation.userValidation(user)){
+            System.out.println("Invalid username");
+            return;
+        }
+
+        System.out.println("Registr successfully");
     }
 }
