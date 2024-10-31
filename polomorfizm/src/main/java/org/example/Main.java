@@ -8,8 +8,5 @@ public class Main {
         Paralilipiped paralilipiped = new Paralilipiped(3,4,5);
         System.out.println(paralilipiped);
 
-
-
-
     }
 }
