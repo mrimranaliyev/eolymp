@@ -5,18 +5,12 @@ public class Main {
 
         Human mother = new Human();
         Human father = new Human();
-        Human child = new Human();
+
+
 
 
         System.out.println(mother);
         System.out.println(father);
-        System.out.println(child);
-
-        child.greetPet();
-        child.describePet();
-        dog.eat();
-        dog.foul();
-        dog.respond();
 
 
     }
